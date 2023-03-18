@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+--	FILE:			Infrared_Rx.vhd
+--
+--	DESCRIPTION:	Simple example switching on LED's LED[1-4] on the board.
+--
+-- 	CREATOR:		MARCIN RYNKIEWICZ
+-------------------------------------------------------------------------------

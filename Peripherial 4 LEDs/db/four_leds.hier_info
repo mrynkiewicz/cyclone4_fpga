@@ -1,0 +1,7 @@
+|four_leds
+leds[1] << <GND>
+leds[2] << <GND>
+leds[3] << <GND>
+leds[4] << <GND>
+
+
