@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+--	FILE:			LEDs_counter.vhd
+--
+--	DESCRIPTION:	This design implements the NEC transmission protocol to  
+--					receive data via an infrared transmission.
+--
+-- 	ENGINEER:		Marcin Rynkiewicz
+-------------------------------------------------------------------------------
