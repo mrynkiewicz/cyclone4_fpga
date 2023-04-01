@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity debounce is
+generic(
+	clk_freq		: integer := 50_000_000; -- external clock of the board is 50[MHz]
+	stable_time	: integer := 10); -- time after which state of switch can be read 10[ms]
+port (
+	clk			: in std_logic;
+	rst			: in std_logic;
+	sw				: in std_logic;
+	output		: out std_logic);
+end entity;
+
+architecture rtl of debounce is
+
+begin
+
+end rtl;
+	

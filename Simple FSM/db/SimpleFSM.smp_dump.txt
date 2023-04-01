@@ -1,0 +1,7 @@
+
+State Machine - |SimpleFSM|state
+Name state.DISP4 state.DISP3 state.DISP2 state.DISP1 
+state.DISP1 0 0 0 0 
+state.DISP2 0 0 1 1 
+state.DISP3 0 1 0 1 
+state.DISP4 1 0 0 1 
