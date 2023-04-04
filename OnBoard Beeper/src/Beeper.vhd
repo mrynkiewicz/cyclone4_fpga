@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Beeper is
+port( 
+	rst	: in std_logic;
+	clk	: in std_logic;
+	beep	: out std_logic);
+end entity;
+
+architecture rtl of Beeper is
+
+signal counter	: std_logic_vector(27 downto 0);
+signal beep_r	: std_logic;
+
+begin
+	
+	beep <= beep_r;
+	
+	counting : process(clk, rst)
+	begin
+		if rst = '0' then
+			counter <= (others => '0');
+		elsif rising_edge(clk) then
+			counter <= std_logic_vector(unsigned(counter) + 1);
+		end if;
+	end process counting;
+	
+	process(clk)
+	begin
+		if rising_edge(clk) then
+			beep_r <= not (counter(13) and counter(24) and counter(27));
+		end if;
+	end process;
+end rtl;
