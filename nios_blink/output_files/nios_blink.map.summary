@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Jun 10 18:06:40 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : nios_blink
+Top-level Entity Name : nios_blink
+Family : Cyclone IV E
+Total logic elements : 1,767
+    Total combinational functions : 1,596
+    Dedicated logic registers : 887
+Total registers : 887
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 175,104
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
